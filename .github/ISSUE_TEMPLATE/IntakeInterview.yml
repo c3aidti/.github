@@ -1,0 +1,30 @@
+name: Intake Interview Guide
+description: "This template contain three tables that help gathering information from research projects when doing initial meetigns with research teams"
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Form for general development tasks.
+        
+        Blablabla
+        
+  - type: textarea
+    id: 
+    attributes:
+      label: Description
+      description: "Description of the task at hand."
+#      placeholder: |
+#        ## Description
+        
+      value: |
+        ## Description
+        
+        ## Steps To Complete
+        - [ ] 
+        - [ ]
+        
+        ## References
+        * [Contributing](https://github.com/c3aidti/training-space-ids/blob/920cac4820ee5921217500969b15407b4e19755d/.github/CONTRIBUTING.md)
+        
+    validations:
+      required: true
